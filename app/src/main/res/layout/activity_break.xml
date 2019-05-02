@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".breakActivity"
+    android:background="@color/mainling">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        >
+        <!--此处00:30应该是读秒-->
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+
+            android:background="@drawable/shape_round_corner"
+            android:textSize="20dp"
+            android:text="记忆时间\n00:30"/>
+        <!--此处单词应该随机-->
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_round_corner"
+            android:text="记忆单词\nsmall\nsix\nintersted"
+            android:textSize="20dp" />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_round_corner"
+            android:textSize="25dp"
+            android:text="Fighting"/>
+    </LinearLayout>
+
+</LinearLayout>
