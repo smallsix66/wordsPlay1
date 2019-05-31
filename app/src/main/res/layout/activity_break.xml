@@ -16,27 +16,31 @@
         >
         <!--此处00:30应该是读秒-->
         <Button
+            android:id="@+id/btn_time"
             android:layout_width="130dp"
-            android:layout_height="70dp"
 
+            android:layout_height="70dp"
             android:background="@drawable/shape_round_corner"
-            android:textSize="20dp"
-            android:text="记忆时间\n00:30"/>
+            android:text="记忆时间\n00:30"
+            android:textSize="20dp" />
         <!--此处单词应该随机-->
         <Button
+            android:id="@+id/btn_words"
             android:layout_width="200dp"
             android:layout_height="130dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/shape_round_corner"
             android:text="记忆单词\nsmall\nsix\nintersted"
             android:textSize="20dp" />
+
         <Button
+            android:id="@+id/btn_fight"
             android:layout_width="130dp"
             android:layout_height="70dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/shape_round_corner"
-            android:textSize="25dp"
-            android:text="Fighting"/>
+            android:text="Fighting"
+            android:textSize="25dp" />
     </LinearLayout>
 
 </LinearLayout>

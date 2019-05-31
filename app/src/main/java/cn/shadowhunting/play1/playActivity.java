@@ -8,6 +8,6 @@ public class playActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_play);
+        setContentView(new MySurfaceView(this));
     }
 }
